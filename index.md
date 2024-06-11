@@ -30,12 +30,13 @@ let x = foo;;
 
 ## Client
 
-<pre class="client"><code class="language-ocaml">
+<div class="language-ocaml">
+<pre class="client">
 module Raw : 
   Html_sigs.Make(Xml)(Svg.D.Raw).T
         with type +'a elt = 'a elt
          and type +'a attrib = 'a attrib
-</code></pre>
+</pre></div>
 
 ## Server
 
