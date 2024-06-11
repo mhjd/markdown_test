@@ -1,0 +1,5 @@
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    css: class
+

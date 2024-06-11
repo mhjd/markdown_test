@@ -1,10 +1,11 @@
-# Titre
+---
+title: "My GitHub Page"
+---
 
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-<div style="background-color: rgb(50, 50, 50);">
+# My Code Example
 
-``python
-print("Yo!")
-``
-
-</div>
+```python
+print("Hello, world!")
+```

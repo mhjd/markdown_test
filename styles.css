@@ -1,3 +1,13 @@
 pre {
-    background-color: #4832a8; /* Change this to your desired color */
+    background-color: #2e3440;
+    border: 1px solid #4c566a;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
 }
+
+code {
+    background-color: #2e3440;
+    color: #d8dee9;
+}
+
