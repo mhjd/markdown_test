@@ -24,6 +24,7 @@ module Raw :
 ```
 
 Shared
+{.server}
 ```ocaml
 let x = foo;;
 ```
