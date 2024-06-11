@@ -1,7 +1,10 @@
 # Titre
 
-<link rel="stylesheet" type="text/css" href="styles.css">
 
-```ocaml
-let hello = "world" ;;
-```
+<div style="background-color: rgb(50, 50, 50);">
+
+``python
+print("Yo!")
+``
+
+</div>
