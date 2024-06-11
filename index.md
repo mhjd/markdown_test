@@ -6,6 +6,28 @@ title: "My GitHub Page"
 
 # My Code Example
 	
+Client :
+
+```ocaml
+module Raw : 
+  Html_sigs.Make(Xml)(Svg.D.Raw).T
+        with type +'a elt = 'a elt
+         and type +'a attrib = 'a attrib
+```
+
+Server :
+```ocaml
+module Raw : 
+  Html_sigs.Make(Xml)(Svg.D.Raw).T
+        with type +'a elt = 'a elt
+         and type +'a attrib = 'a attrib
+```
+
+Shared
+```ocaml
+let x = foo;;
+```
+
 ## Client
 
 <pre class="client"><code class="language-ocaml">
