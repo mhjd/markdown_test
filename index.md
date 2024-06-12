@@ -35,6 +35,7 @@ let x = foo;;
 <div class="language-ocaml">
 <pre class="client">
 <code>
+let x = "a" ;;
 module Raw : 
   Html_sigs.Make(Xml)(Svg.D.Raw).T
         with type +'a elt = 'a elt
